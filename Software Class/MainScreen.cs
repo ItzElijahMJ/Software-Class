@@ -18,6 +18,14 @@ namespace Software_Class
             InitializeComponent();
         }
 
+        private void Testknop()
+        {
+                this.BackColor = Color.Blue
+                System.Threading.Thread.Sleep(1000);
+                this.BackColor = DefaultBackColor
+        }        
+        
+        
         private void GreenBack_MouseEnter(object sender, EventArgs e)
         {
             this.BackColor = Color.Green;       //Make the BackColor from this(form) Green
@@ -88,7 +96,7 @@ namespace Software_Class
                         break;
 
                     case "keer":
-                        EndResult = FirstNumber * SecondNumber;
+                        EndResult = FirstNumber * SecondNumber;lol
                         tbEndResult.Text = EndResult.ToString();
                         break;
 
